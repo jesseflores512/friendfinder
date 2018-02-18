@@ -149,51 +149,76 @@
       <option value="5">5 (Strongly Agree)</option>
     </select>
 
-  </br></br>
-  <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-     Submit</button>
-  </br>
-    <a href="/">Home</a>
-    <a href="/survey">Survey</a>
+    </br></br>
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+       Submit</button>
+    </br>
+      <a href="/">Home</a>
+      <a href="/survey">Survey</a>
 
-  </body>
+      <!-- Modal-->
+      <div id="resultsModal" class="modal fade" role="dialog">
+      	  <div class="modal-dialog">
 
-  <script>
-  function runFriendQuery() {
-    var currentURL = window.location.origin;
+      	    <div class="modal-content">
+      	      <div class="modal-header">
+      	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+      	      </div>
+      	      <div class="modal-body">
+      	        <h2 id="userMatchName"></h2>
+      	        <img id="userMatchImg" width="568" src="">
+      	      </div>
+      	      <div class="modal-footer">
+      	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      	      </div>
+      	    </div>
 
-    $.ajax({url: currentURL + "/api/people", method: "GET"})
-    .done(function(friends) {
-      console.log("URL: " + currentURL + "api/people");
-    })
-  }
-  runFriendQuery();
+      	  </div>
+      	</div>
 
-    $("#submit").on("click", function(){
-      var newFriend =
-      {
-      name: $("#name").val(),
-      photo: $("#photo").val(),
-      scores: [
-          $("#q1").val(),
-          $("#q2").val(),
-          $("#q3").val(),
-          $("#q4").val(),
-          $("#q5").val(),
-          $("#q6").val(),
-          $("#q7").val(),
-          $("#q8").val(),
-          $("#q9").val(),
-          $("#q10").val()
-          ]
-      }
-      console.log("user submited")
 
+    <script>
+    function runFriendQuery() {
       var currentURL = window.location.origin;
 
-      $.post(currentURL + "/api/people", newFriend, function(data) {
-        console.log(newFriend)
+      $.ajax({url: currentURL + "/api/people", method: "GET"})
+      .done(function(friends) {
+        console.log("URL: " + currentURL + "api/people");
       })
+      }
+      runFriendQuery();
 
-    })
-  </script>
+      $("#submit").on("click", function(){
+        var newFriend =
+        {
+        name: $("#name").val(),
+        photo: $("#photo").val(),
+        scores: [
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val()
+            ]
+        }
+        console.log("user submited")
+
+        var currentURL = window.location.origin;
+
+        $.post(currentURL + "/api/people", newFriend, function(data) {
+          $("#userMatchName").text(data.matchName);
+	    		$('#userMatchImg').attr("src", data.matchImg);
+		    	// Show the modal with the best match
+		    	$("#resultsModal").modal('toggle');
+
+        })
+
+      })
+    </script>
+  </body>
