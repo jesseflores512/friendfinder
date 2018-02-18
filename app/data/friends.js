@@ -1,7 +1,7 @@
 var friends =
 [
 {
-"name": "Ahmed",
+"name": "Kevin Hart",
 "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
 "scores": [
 "5",
@@ -17,7 +17,7 @@ var friends =
 ]
 },
 {
-"name": "Jacob Deming",
+"name": "Denzel Washington",
 "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
 "scores": [
 "4",
@@ -33,7 +33,7 @@ var friends =
 ]
 },
 {
-"name": "Jeremiah Scanlon",
+"name": "Elijah Wood",
 "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
 "scores": [
 "5",
@@ -49,7 +49,7 @@ var friends =
 ]
 },
 {
-"name": "Louis T. Delia",
+"name": "Jimmy Kimmel",
 "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
 "scores": [
 "3",
@@ -65,7 +65,7 @@ var friends =
 ]
 },
 {
-"name": "Lou Ritter",
+"name": "Robert Downing Jr",
 "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
 "scores": [
 "4",
@@ -81,7 +81,7 @@ var friends =
 ]
 },
 {
-"name": "Jordan Biason",
+"name": "Liam Neeson",
 "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
 "scores": [
 "4",
@@ -97,7 +97,7 @@ var friends =
 ]
 },
 {
-"name": "a",
+"name": "George Clooney",
 "photo": "http://www.petsworld.in/blog/wp-content/uploads/2014/09/adorable-cat.jpg",
 "scores": [
 "3",
@@ -113,7 +113,7 @@ var friends =
 ]
 },
 {
-"name": "a",
+"name": "Michael B. Jordan",
 "photo": "http://www.petsworld.in/blog/wp-content/uploads/2014/09/adorable-cat.jpg",
 "scores": [
 "1",
