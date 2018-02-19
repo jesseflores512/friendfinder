@@ -2,7 +2,7 @@ var friends =
 [
 {
 "name": "Kevin Hart",
-"photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+"photo": "https://www.premiumseatsusa.com/images/performers/kevin-hart.jpg",
 "scores": [
 "5",
 "1",
@@ -18,7 +18,7 @@ var friends =
 },
 {
 "name": "Denzel Washington",
-"photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+"photo": "https://pmctvline2.files.wordpress.com/2015/10/denzel-greys.jpg",
 "scores": [
 "4",
 "2",
@@ -34,7 +34,7 @@ var friends =
 },
 {
 "name": "Elijah Wood",
-"photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+"photo": "https://www.famousbirthdays.com/headshots/elijah-wood-2.jpg",
 "scores": [
 "5",
 "2",
@@ -50,7 +50,7 @@ var friends =
 },
 {
 "name": "Jimmy Kimmel",
-"photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+"photo": "https://www.gannett-cdn.com/-mm-/646d18e0256369d9c79e1af6599dd78095d6ef05/c=56-0-943-667&r=x404&c=534x401/local/-/media/2017/05/09/USATODAY/USATODAY/636299126866256608-146641-3486.jpg",
 "scores": [
 "3",
 "3",
@@ -66,7 +66,7 @@ var friends =
 },
 {
 "name": "Robert Downing Jr",
-"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+"photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Robert_Downey_Jr_avp_Iron_Man_3_Paris.jpg/500px-Robert_Downey_Jr_avp_Iron_Man_3_Paris.jpg",
 "scores": [
 "4",
 "3",
@@ -82,7 +82,7 @@ var friends =
 },
 {
 "name": "Liam Neeson",
-"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+"photo": "http://media.breitbart.com/media/2017/09/LiamNeesonThumbsUp-640x480.jpg",
 "scores": [
 "4",
 "4",
@@ -98,7 +98,7 @@ var friends =
 },
 {
 "name": "George Clooney",
-"photo": "http://www.petsworld.in/blog/wp-content/uploads/2014/09/adorable-cat.jpg",
+"photo": "https://pmchollywoodlife.files.wordpress.com/2017/10/george-clooney-twins-dirty-diapers-ftr.jpg?w=620&zoom=2",
 "scores": [
 "3",
 "4",
@@ -114,7 +114,7 @@ var friends =
 },
 {
 "name": "Michael B. Jordan",
-"photo": "http://www.petsworld.in/blog/wp-content/uploads/2014/09/adorable-cat.jpg",
+"photo": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExOTY3NzExM15BMl5BanBnXkFtZTgwOTg1OTAzMTE@._V1_UX214_CR0,0,214,317_AL_.jpg",
 "scores": [
 "1",
 "1",
